@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}   
+
+    .card {
+        transition: transform 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .card-header {
+        background-color: #6c757d;
+        color: white;
+        font-weight: bold;
+    }
